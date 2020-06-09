@@ -1,0 +1,40 @@
+$whi: #e2dddd;
+$gre: #686872;
+$bla: #2d2d2d;
+$dar: #242729;
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body,
+html,
+#root,
+#App {
+    margin: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    height: 100vh;
+    width: 100vw;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+    font-size: larger;
+    text-align: center;
+}
+
+#div1 {
+    padding: 20px;
+    color: $dar;
+    background-color: $whi;
+}
+#div2 {
+    padding: 20px;
+    color: $whi;
+    background-color: $dar;
+}
+#div3 {
+    padding: 20px;
+    color: $whi;
+    background-color: $bla;
+}
