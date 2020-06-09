@@ -68,6 +68,7 @@ export default class ResizeBar extends React.Component {
             height: "100%",
             display: "grid",
             flexGrow: "1",
+            overflow: "hidden",
             gridTemplateColumns: this.props.direction === "vertical" ? `${this.state.position}% 5px auto` : "auto",
             gridTemplateRows: this.props.direction === "vertical" ? "auto" : `${this.state.position}% 5px auto`,
         };
