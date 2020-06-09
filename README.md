@@ -10,10 +10,12 @@ This is a single React component that allow you to make custom resize bar for yo
 
 # How to use
 
-just import
+You just need to import :
+
 `import ResizeBar from "./ResizeBar.js";`
 
 You can use props for more customization :
+(e.g. `<ResizeBar direction="horizontal" position={70} className="bar1" minPos={30} maxPos={60}> [...]`)
 
 -   `direction` either "vertical" or "horizontal" (horizontal by default)
 -   `position` area where the bar should be placed at the start in percent (50% by default)
