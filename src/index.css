@@ -1,44 +1,43 @@
 *,
 *::before,
 *::after {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 body,
 html,
 #root,
 #App {
-  margin: 0;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  height: 100vh;
-  width: 100vw;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
-  font-size: larger;
-  text-align: center;
-  -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-          user-select: none;
+    margin: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    height: 100vh;
+    width: 100vw;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+    font-size: larger;
+    text-align: center;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 
 #div1 {
-  color: #242729;
-  background-color: #e2dddd;
+    color: #242729;
+    background-color: #e2dddd;
 }
 
 #div2 {
-  color: #e2dddd;
-  background-color: #242729;
+    color: #e2dddd;
+    background-color: #242729;
 }
 
 #div3 {
-  color: #e2dddd;
-  background-color: #2d2d2d;
+    color: #e2dddd;
+    background-color: #2d2d2d;
 }
 
 .resizeBar {
-  background-color: #8bca67;
+    background-color: #8bca67;
 }
-/*# sourceMappingURL=index.css.map */
