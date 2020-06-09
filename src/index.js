@@ -21,7 +21,7 @@ class App extends React.Component {
                             </ResizeBar>
                         </div>
                     </ResizeBar>
-                    <div id="div3">Div 3</div>
+                    <div id="div3">Div 2</div>
                 </ResizeBar>
             </div>
         );
