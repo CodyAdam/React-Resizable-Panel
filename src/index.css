@@ -17,23 +17,28 @@ html,
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
   font-size: larger;
   text-align: center;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
 }
 
 #div1 {
-  padding: 20px;
   color: #242729;
   background-color: #e2dddd;
 }
 
 #div2 {
-  padding: 20px;
   color: #e2dddd;
   background-color: #242729;
 }
 
 #div3 {
-  padding: 20px;
   color: #e2dddd;
   background-color: #2d2d2d;
+}
+
+.resizeBar {
+  background-color: #8bca67;
 }
 /*# sourceMappingURL=index.css.map */

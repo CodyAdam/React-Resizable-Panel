@@ -21,20 +21,22 @@ html,
     font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
     font-size: larger;
     text-align: center;
+    user-select: none;
 }
 
 #div1 {
-    padding: 20px;
     color: $dar;
     background-color: $whi;
 }
 #div2 {
-    padding: 20px;
     color: $whi;
     background-color: $dar;
 }
 #div3 {
-    padding: 20px;
     color: $whi;
     background-color: $bla;
+}
+
+.resizeBar {
+    background-color: rgb(139, 202, 103);
 }
