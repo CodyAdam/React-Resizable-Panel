@@ -3,7 +3,7 @@ import React from "react";
 /**
  * Add a resize bar between two panel (can not handle more or less then 2 childrens)
  * @param direction either "vertical" or "horizontal" (horizontal by default)
- * @param position area where the bar should be placed by default in percent (50% by default)
+ * @param position area where the bar should be placed at the start in percent (50% by default)
  * @param className the className of the bar to change it's style ("resizeBar" by default)
  * @param minPos the minimum % position of the bar (10% by default)
  * @param maxPos the maximum % position of the bar (90% by default)
