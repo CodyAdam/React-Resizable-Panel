@@ -2,19 +2,20 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
 
-## Try the Demo Here : [codyadam.github.io/React-Resizable-Panel](https://codyadam.github.io/React-Resizable-Panel/)
+# Try the Demo Here : [codyadam.github.io/React-Resizable-Panel](https://codyadam.github.io/React-Resizable-Panel/)
 
-# What is this ?
+## What is this ?
 
 This is a single React component that allow you to make custom resize bar for your panels.
 
-# How to use
+## How to use
 
-You just need to import :
+##### You just need to import :
 
 `import ResizeBar from "./ResizeBar.js";`
 
-You can use props for more customization :
+##### You can use props for more customization :
+
 (e.g. `<ResizeBar direction="horizontal" position={70} className="bar1" minPos={30} maxPos={60}> [...]`)
 
 -   `direction` either "vertical" or "horizontal" (horizontal by default)
