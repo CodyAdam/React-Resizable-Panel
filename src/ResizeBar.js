@@ -22,9 +22,9 @@ export default class ResizeBar extends React.Component {
         this.state = {
             containerSize: null,
             mouseStartPos: null,
-            position: props.position ? props.position : 50,
-            minPos: props.minPos ? props.minPos : 10,
-            maxPos: props.maxPos ? props.maxPos : 90,
+            position: props.position || 50,
+            minPos: props.minPos || 10,
+            maxPos: props.maxPos || 90,
             dragging: false,
         };
     }
@@ -55,11 +55,6 @@ export default class ResizeBar extends React.Component {
                     ? this.container.current.offsetWidth
                     : this.container.current.offsetHeight,
         });
-    }
-
-    componentDidMount() {
-        this.setContainerSize();
-        window.addEventListener("resize", this.setContainerSize);
     }
 
     render() {
